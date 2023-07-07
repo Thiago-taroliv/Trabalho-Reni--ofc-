@@ -1,5 +1,29 @@
 /*CORPO*/
 
 body {
-    font-family: ;
+    font-family: Ysabeau Office, sans-serif;
+    color: #1c1c1c;
 }
+
+h1, h2, h3 {
+    font-family: Belanosima, sans-serif;
+    color: #000000;
+}
+
+/*Navegação*/
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191970;
+}
+nav > a {
+
+            text-decoration: none;
+            color:#FFFFFF;
+            font-weight: 800;
+            font-size: 32px;
+            font-family: Lagosta, cursiva, serif;
+}
+
