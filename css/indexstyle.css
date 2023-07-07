@@ -1,13 +1,17 @@
 /*CORPO*/
-
+@import url('https://fonts.googleapis.com/css2? family= Belanosima & family= Lobster & family= Ysabeau+Office:wght@500 & display=swap');
 body {
-    font-family: Ysabeau Office, sans-serif;
+    font-family: Ysabeau Office, ;
     color: #1c1c1c;
+    background-color: #000;
 }
-
-h1, h2, h3 {
+.container{
+    max-width: 1270px;
+    margin: 0 auto;
+}
+h1, h2, h3, .texto {
     font-family: Belanosima, sans-serif;
-    color: #000000;
+    color: #FFFFFF;
 }
 
 /*Navegação*/
@@ -16,7 +20,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #191970;
+   
 }
 nav > a {
 
@@ -27,3 +31,35 @@ nav > a {
             font-family: Lagosta, cursiva, serif;
 }
 
+.btn{
+    border: 2px solid black;
+    background-color: rgb(19, 136, 232);
+    color: #000;
+    padding: 14px 28px;
+    border-radius: 26px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: #fff;
+  
+  }
+  .btn:hover {
+      background: #FFFFFF;
+      color: #000;
+    }
+  
+  .divbtn{
+      padding-right: 40px;
+      padding-left: 33%;
+     
+  }
+.imghead{
+    padding-left: 80px;
+    padding-bottom: 30px;
+}
+.textosobre{
+    padding-left: 50px;
+    text-align:justify;
+}
+.imgfundo{
+    background-image: url("/img/fundo\ maquina.png");
+}
