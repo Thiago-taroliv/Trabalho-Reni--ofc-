@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&family=Yellowtail&display=swap" rel="stylesheet">
@@ -71,24 +72,28 @@
                     <li><a href="https://www.instagram.com/ni_tattoo.art/">ni_tattoo.art</a></li>
                 </ul>
             </div>
+            <h1>Não perca tempo e entre em contato conosco por nossas redes sociais </h1> 
+            <h1>OU</h1>
+            <h1>preencha o formulário e nos mande uma mensagem diretamente!</h1>
         </div>
     </div>
-
-    <div class="form">
+<div class="body">
+    <div class="chat">
         <h2>Contato</h2>
-        <form action="https://api.staticforms.xyz/submit" method="post">
+        <form class="form" action="https://api.staticforms.xyz/submit" method="post">
             <label>Nome</label>
-            <input type="text" name="name" placeholder="Digite seu nome">
+            <input type="text" name="name" placeholder="Digite seu nome" required >
             <label>Email</label>
-            <input type="email" name="email" placeholder="Digite seu email">
+            <input type="email" name="email" placeholder="Digite seu email" required >
             <label>Mensagem</label>
-            <textarea name="message" id="" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
-            <button type="submit">Enviar</button>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Digite sua mensagem" required ></textarea>
+            <button id="botao2" type="submit">Enviar</button>
 
             <input type="hidden" name="accessKey" value="00ca43f5-e9b3-4df7-9c75-4aa2a213e8e9">
             <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
         </form>
     </div>
+</div>
 
     <div class="footer">
         <p>&copy; 2023 Nidolly Art&Tattoo. Todos os direitos reservados. Desenvolvido por Nicole, Samuel e Thiago.</p>

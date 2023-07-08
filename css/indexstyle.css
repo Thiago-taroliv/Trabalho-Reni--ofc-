@@ -14,6 +14,7 @@ h1, h2 {
     align-items: center;
     justify-content: center;
     background-color: #000730;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .header > h1 {
@@ -29,6 +30,7 @@ h1, h2 {
     align-items: center;
     justify-content: center;
     background-color: #d7d7d762;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .nav > ul {
@@ -67,7 +69,27 @@ h1, h2 {
     background-color: #000730;
     font-size: .9em;
     border-radius: 10px;
+    transition: all 0.5s;
+}
 
+#botao2 {
+    font-family: 'Nunito', serif;;
+    align-items: center;
+    font-display: center;
+    color: #000000;
+    margin: 5px;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: #ffffff;
+    font-size: .9em;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+#botao2:hover{
+    border-radius:14px;
+    background-color: #000000;
+    color: white;
 }
 
 #botao {
@@ -80,10 +102,35 @@ h1, h2 {
     padding: 15px 25px;
     background-color: #000000;
     font-size: .9em;
-    border-radius: 10px;
+    border-radius: 20px;
+    transition: all 0.5s;
 }
 
+#botao:hover{
+    border-radius:14px;
+    background-color: #000730;
+    color: #ffffff;
+}
 
+#botao3 {
+    font-family: 'Nunito', serif;
+    align-items: center;
+    font-display: center;
+    color: #ffffff;
+    margin: 5px;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: #000000;
+    font-size: .9em;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+#botao3:hover{
+    border-radius:20px;
+    background-color: #ffffff;
+    color: #000000;
+}
 
 .fundo{
     
@@ -91,6 +138,7 @@ h1, h2 {
     height: 120vh;
     width: auto;
     background-image: url(../img/fundohomimuie.jpg);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 .sobre {
     margin-top: 65vh;
@@ -111,19 +159,6 @@ h1, h2 {
     text-align: center;
 }
 
-#botao2 {
-    font-family: 'Nunito', serif;;
-    align-items: center;
-    font-display: center;
-    color: #000730;
-    margin: 5px;
-    text-decoration: none;
-    padding: 10px 25px;
-    background-color: #ffffff;
-    font-size: .9em;
-    border-radius: 10px;
-
-}
 
 .trabalhos{
     display: flex;
