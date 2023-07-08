@@ -1,65 +1,181 @@
-/*CORPO*/
-@import url('https://fonts.googleapis.com/css2? family= Belanosima & family= Lobster & family= Ysabeau+Office:wght@500 & display=swap');
 body {
-    font-family: Ysabeau Office, ;
-    color: #1c1c1c;
-    background-color: #000;
+    background-color: black;
+    color: white;
 }
-.container{
-    max-width: 1270px;
-    margin: 0 auto;
-}
-h1, h2, h3, .texto {
-    font-family: Belanosima, sans-serif;
-    color: #FFFFFF;
+h1, h2 {
+    font-family: 'Ysabeau Office', sans-serif;
+    color: white;
 }
 
-/*Navegação*/
+.header {
+    height: 35vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #000730;
+}
 
-nav {
+.header > h1 {
+    color: white;
+    font-size: 34px;
+    font-family: 'Lobster', sans-serif;
+}
+
+.nav {
+    height: 15vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #d7d7d762;
+}
+
+.nav > ul {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    list-style: none;
+    padding: .3rem;
+}
+
+.nav > ul > li {
+    padding: 45px 45px 45px 45px ;
+    text-align: center;
+    width: 100%;
+}
+
+.nav > ul > li > a {
+    
+    padding: 15px;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+#botaosobre{
+    font-family: 'Nunito', serif;
+    align-items: center;
+    font-display: center;
+    color: #ffffff;
+    margin: 5px;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #000730;
+    font-size: .9em;
+    border-radius: 10px;
+
+}
+
+#botao {
+    font-family: 'Nunito', serif;
+    align-items: center;
+    font-display: center;
+    color: #ffffff;
+    margin: 5px;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #000000;
+    font-size: .9em;
+    border-radius: 10px;
+}
+
+
+
+.fundo{
+    
+    background-repeat: no-repeat;
+    height: 120vh;
+    background-image: url(../img/fundohomimuie.jpg);
+}
+.sobre {
+    margin-top: 65vh;
+    background-color: rgba(0, 2, 55, 0.3);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+.sobre>h2{
+    font-family: 'Lobster', sans-serif;
+
+}
+.sobre>p{
+    font-family: 'Ysabeau Office', serif;
+    text-align: center;
+}
+
+#botao2 {
+    font-family: 'Nunito', serif;;
+    align-items: center;
+    font-display: center;
+    color: #000730;
+    margin: 5px;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: #ffffff;
+    font-size: .9em;
+    border-radius: 10px;
+
+}
+
+.trabalhos{
     display: flex;
     flex-direction: column;
     align-items: center;
-   
-}
-nav > a {
-
-            text-decoration: none;
-            color:#FFFFFF;
-            font-weight: 800;
-            font-size: 32px;
-            font-family: Lagosta, cursiva, serif;
+    padding-top: 20px;
 }
 
-.btn{
-    border: 2px solid black;
-    background-color: rgb(19, 136, 232);
-    color: #000;
-    padding: 14px 28px;
-    border-radius: 26px;
-    font-size: 16px;
-    cursor: pointer;
-    border-color: #fff;
-  
-  }
-  .btn:hover {
-      background: #FFFFFF;
-      color: #000;
-    }
-  
-  .divbtn{
-      padding-right: 40px;
-      padding-left: 33%;
-     
-  }
-.imghead{
-    padding-left: 80px;
-    padding-bottom: 30px;
+.trabalhos > h2{
+    font-family: 'Lobster', sans-serif;;
+    margin-bottom: 20px;
 }
-.textosobre{
-    padding-left: 50px;
-    text-align:justify;
+
+.trabalhos > p{
+    font-family: 'Ysabeau Office', serif;
+    margin-bottom: 2.5em;
+    max-width: 1000px;
 }
-.imgfundo{
-    background-image: url("/img/fundo\ maquina.png");
+.trabalhos > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 20px;
 }
+.trabalhos img {
+    width: 33.3333333%;
+    height: 400px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato >h2{
+    font-family: 'Lobster', sans-serif;  
+}
+
+.footer {
+
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer >p {
+    font-family: 'Ysabeau Office', serif;
+}
+
