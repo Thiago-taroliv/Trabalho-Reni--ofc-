@@ -1,0 +1,232 @@
+body {
+    background-color: black;
+    color: white;
+}
+ h1, h2 {
+    font-family: 'Ysabeau Office', sans-serif;
+    color: white;
+}
+
+.header {
+    height: 35vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #000730;
+}
+
+.header > h1 {
+    color: white;
+    font-size: 34px;
+    font-family: 'Lobster', sans-serif;
+}
+
+.nav {
+    height: 15vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #d7d7d762;
+}
+
+.nav > ul {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    list-style: none;
+    padding: .3rem;
+}
+
+.nav > ul > li {
+    padding: 45px 45px 45px 45px ;
+    text-align: center;
+    width: 100%;
+}
+
+.nav > ul > li > a {
+    
+    padding: 15px;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+#botaodif{
+    font-family: 'Nunito', serif;
+    align-items: center;
+    font-display: center;
+    color: #ffffff;
+    margin: 5px;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #000730;
+    font-size: .9em;
+    border-radius: 10px;
+
+}
+
+#botao {
+    font-family: 'Nunito', serif;
+    align-items: center;
+    font-display: center;
+    color: #ffffff;
+    margin: 5px;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #000000;
+    font-size: .9em;
+    border-radius: 10px;
+}
+
+.fundo{
+    
+    background-repeat: no-repeat;
+    height: 120vh;
+    width: 100%;
+    background-image: url(../img/fundobranco.jpg);
+}
+
+
+
+
+.contatos{
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-top: 0px;
+    width: 100%;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 20px;
+    height: 100px;
+
+}
+
+.tel > ul{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    
+}
+.tel >ul >li {
+    padding: 0px 0px ;
+    text-align: center;
+    width: 100%;
+}
+.tel > ul > li > a {
+    
+    color: #000000;
+    padding: 15px;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+   
+}
+
+.mail > ul{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    
+}
+.mail >ul >li {
+    padding: 0px 0px ;
+    text-align: center;
+    width: 100%;
+}
+.mail > ul > li > a {
+    
+    padding: 15px;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: #000000;
+}
+
+.wpp > ul{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    
+}
+.wpp >ul >li {
+    padding: 0px 0px ;
+    text-align: center;
+    width: 100%;
+}
+.wpp > ul > li > a {
+    
+    padding: 15px;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: #000000;
+}
+
+.fc > ul{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    
+}
+.fc >ul >li {
+    padding: 0px 0px ;
+    text-align: center;
+    width: 100%;
+}
+.fc > ul > li > a {
+    
+    padding: 15px;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: #000000;
+}
+
+.ig > ul{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    
+}
+.ig >ul >li {
+    padding: 0px 0px ;
+    text-align: center;
+    width: 100%;
+}
+.ig > ul > li > a {
+    
+    padding: 15px;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer {
+
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer >p {
+    font-family: 'Ysabeau Office', serif;
+}

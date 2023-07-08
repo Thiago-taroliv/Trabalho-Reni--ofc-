@@ -4,30 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
-    <link href="https: //fonts.googleapis.com/css2?family= Belanosima & family= Lobster & family= Ysabeau+Office:wght@500 & display=swap" rel="stylesheet" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Lobster&family=Ysabeau+Office:wght@500&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="css/contatostyle.css">
 </head>
 
 <body>
 
-    <nav>      
-        <ul>
+    <div id="header" class="header">
+
+            
+        <div class="logo">
             <img src="img/favicon/logo.png" alt="logo">
-            <li><a href="index.html">Página Inicial</a></li>
-            <li><a href="servicos.html">Serviços</a></li>
-            <li><a href="contato.html">Contato</a></li>
-        </ul>
-    </nav>
-    <hr>
+        </div>       
+        <h1>Nidolly Art&Tattoo</h1>
+    </div>
 
-    <header id="topo">
-        <h1>Contato</h1><header id="topo">
-        <p>Entre em contato conosco!</p>    
-    </header>
+    <div class="fundo">
+        <div class="nav">
+                <ul >         
+                    <li><a href="index.html" id="botao">Página Inicial</a></li>
+                    <li><a href="index.html#sobre" id="botao">Sobre</a></li>
+                    <li><a href="servicos.html" id="botao">Serviços</a</li>
+                    <li><a href="#form" id="botaodif">Contato</a></li>   
+                </ul>  
+        </div>
 
-    <section>
+        
+
+        <div class="contatos">
+            <div class="tel">
+                <ul>
+                    <li><img src="img/telefone.png" alt="telefone"></li>
+                    <li><a href="tel:35998541289">(35)998541289</a></li>
+                </ul>
+            </div>
+
+            <div class="mail">
+                <ul>
+                    <li><img src="img/gmail.png" alt="email"></li>
+                    <li><a href="mailto:nidollytattoo@gmail.com">nidollytattoo@gmail.com</a></li>
+                </ul>
+            </div>
+
+            <div class="wpp">
+                <ul>
+                    <li><img src="img/whatsapp.png" alt="whatsapp"></li>
+                    <li><a href="tel:35998541289">(35)998541289</a></li>
+                 </ul>
+            </div>
+
+            <div class="fc">
+                <ul>
+                    <li><img src="img/facebook.png" alt="facebook"></li>
+                    <li><a href="https://www.facebook.com/nicole.andrade.54738">Nicole Andrade</a></li>
+                </ul>
+            </div>
+
+            <div class="ig">
+                <ul>
+                    <li><img src="img/instagram.png" alt="instagram"></li>
+                    <li><a href="https://www.instagram.com/ni_tattoo.art/">ni_tattoo.art</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="form">
         <h2>Contato</h2>
         <form action="https://api.staticforms.xyz/submit" method="post">
             <label>Nome</label>
@@ -41,37 +88,11 @@
             <input type="hidden" name="accessKey" value="00ca43f5-e9b3-4df7-9c75-4aa2a213e8e9">
             <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
         </form>
-    </section>
-
-    <div>
-        <img src="img/telefone.png" alt="telefone">
-        <p><a href="tel:35998541289"></a>(35)99854-1289</p>
     </div>
 
-    <div>
-        <img src="img/gmail.png" alt="email">
-        <p><a href="mailto:nidollytattoo@gmail.com">nidollytattoo@gmail.com</a></p>
+    <div class="footer">
+        <p>&copy; 2023 Nidolly Art&Tattoo. Todos os direitos reservados. Desenvolvido por Nicole, Samuel e Thiago.</p>
     </div>
-
-    <div>
-        <img src="img/whatsapp.png" alt="whatsapp">
-        <p><a href="tel:35998541289"></a>(35)99854-1289</p>
-    </div>
-
-    <div>
-        <img src="img/facebook.png" alt="facebook">
-        <p><a href="https://www.facebook.com/nicole.andrade.54738">Nicole Andrade</a></p>
-    </div>
-
-    <div>
-        <img src="img/instagram.png" alt="instagram">
-        <p><a href="https://www.instagram.com/ni_tattoo.art/">ni_tattoo.art</a></p>
-    </div>
-    <hr>
-
-    <footer>
-        <p>&copy; 2023 Nidolly Art&Tattoo. Todos os direitos reservados. <br>Desenvolvido por Nicole, Samuel e Thiago.</p>
-      </footer>
     
 </body>
 </html>
