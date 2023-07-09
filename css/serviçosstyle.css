@@ -1,0 +1,300 @@
+body {
+    background-color: black;
+    color: white;
+}
+h1, h2 {
+    font-family: 'Ysabeau Office', sans-serif;
+    color: white;
+}
+
+.header {
+    height: 35vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #000730;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.header > h1 {
+    color: white;
+    font-size: 34px;
+    font-family: 'Lobster', sans-serif;
+}
+
+.nav {
+    height: 15vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #d7d7d762;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.nav > ul {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    list-style: none;
+    padding: .3rem;
+}
+
+.nav > ul > li {
+    padding: 45px 45px 45px 45px ;
+    text-align: center;
+    width: 100%;
+}
+
+.nav > ul > li > a {
+    
+    padding: 15px;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+#botaodif{
+    font-family: 'Nunito', serif;
+    align-items: center;
+    font-display: center;
+    color: #ffffff;
+    margin: 5px;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #000730;
+    font-size: .9em;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+#botao {
+    font-family: 'Nunito', serif;
+    align-items: center;
+    font-display: center;
+    color: #ffffff;
+    margin: 5px;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #000000;
+    font-size: .9em;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+#botao:hover{
+    border-radius:14px;
+    background-color: #000730;
+    color: #ffffff;
+}
+
+#botao2 {
+    font-family: 'Nunito', serif;;
+    align-items: center;
+    font-display: center;
+    color: #000000;
+    margin: 5px;
+    text-decoration: none;
+    padding: 20px 50px;
+    background-color: #ffffff;
+    font-size: 1.2em;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+#botao2:hover{
+    border-radius:14px;
+    background-color: #000000;
+    color: white;
+}
+
+#botao3 {
+    font-family: 'Nunito', serif;
+    align-items: center;
+    font-display: center;
+    color: #ffffff;
+    margin: 5px;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: #000000;
+    font-size: .9em;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+#botao3:hover{
+    border-radius:20px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#botao4 {
+    font-family: 'Nunito', serif;;
+    align-items: center;
+    font-display: center;
+    color: #000000;
+    margin: 5px;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: #ffffff;
+    font-size: .9em;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+#botao4:hover{
+    border-radius:14px;
+    background-color: #000000;
+    color: white;
+}
+
+.fundo{
+    
+    background-repeat: no-repeat;
+    height: 120vh;
+    width: 100%;
+    background-image: url(../img/fundo\ moça.jpg);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.escolha{
+    margin-top: 65vh;
+    background-color: rgba(0, 2, 55, 0.3);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+.escolha>h2{
+    font-family: 'Lobster', sans-serif;
+    font-size: 30px;
+
+}
+.escolha>p{
+    font-size: larger;
+    font-family: 'Ysabeau Office', serif;
+    text-align: center;
+}
+
+.escolha > ul {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    list-style: none;
+    padding: .3rem;
+}
+.escolha > ul > li {
+    padding: 45px 45px 45px 45px ;
+    text-align: center;
+    width: 100%;
+}
+
+.flashs{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.flashs > h2{
+    font-family: 'Lobster', sans-serif;;
+    margin-bottom: 20px;
+}
+
+.flashs > p{
+    font-size: larger;
+    text-align: center;
+    font-family: 'Ysabeau Office', serif;
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+.flashs > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 20px;
+}
+.flashs img {
+    border-radius: 20px;
+    padding: 1%;
+    width: 30%;
+    height: 400px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    box-shadow: rgba(14, 0, 104, 0.25) 0px 54px 55px, rgba(14, 0, 104, 0.25) 0px -12px 30px, rgba(14, 0, 104, 0.25) 0px 4px 6px, rgba(14, 0, 104, 0.25) 0px 12px 13px, rgba(14, 0, 104, 0.25) 0px -3px 5px;
+
+}
+
+.tattoos{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.tattoos > h2{
+    font-family: 'Lobster', sans-serif;;
+    margin-bottom: 20px;
+}
+
+.tattoos > p{
+    font-size: larger;
+    text-align: center;
+    font-family: 'Ysabeau Office', serif;
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+.tattoos > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 20px;
+}
+.tattoos img {
+    border-radius: 20px;
+    padding: 1%;
+    width: 30%;
+    height: 400px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    box-shadow: rgba(14, 0, 104, 0.25) 0px 54px 55px, rgba(14, 0, 104, 0.25) 0px -12px 30px, rgba(14, 0, 104, 0.25) 0px 4px 6px, rgba(14, 0, 104, 0.25) 0px 12px 13px, rgba(14, 0, 104, 0.25) 0px -3px 5px;
+
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato >h2{
+    font-family: 'Lobster', sans-serif;  
+}
+
+.footer {
+
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer >p {
+    font-family: 'Ysabeau Office', serif;
+}
