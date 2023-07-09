@@ -1,0 +1,132 @@
+/*CORPO*/
+@import url('https://fonts.googleapis.com/css2? family= Belanosima & family= Lobster & family= Ysabeau+Office:wght@500 & display=swap');
+
+body {
+    font-family: Ysabeau Office;
+    color: #ffffff;
+    background-color: #000000;
+
+}
+body p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    font-family:  cursiva, serif;
+    text-align: center;
+}
+
+h2{
+    font-family: Belanosima, sans-serif;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.botaosobre{
+    align-items: center;
+    font-display: center;
+    color: #ffffff;
+    margin: 5px;
+    text-decoration: none;
+    padding: 15px 45px;
+    background-color: #000730;
+    font-size: .9em;
+    border-radius: 10px;
+
+}
+
+.botao {
+    align-items: center;
+    font-display: center;
+    color: #ffffff;
+    margin: 5px;
+    text-decoration: none;
+    padding: 15px 45px;
+    background-color: #000000;
+    font-size: .9em;
+    border-radius: 10px;
+
+
+}
+
+.imglogo{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    width: 100%;
+
+}
+
+.texto{
+    margin-top: 200px;
+    background-image: url(../img/fundo-escuro-textura-de-concreto.jpg);
+    margin-bottom: 50px;
+}
+
+/*Navegação*/
+
+
+
+nav ul{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.73);
+    
+}
+
+
+nav ul li a {
+
+    display:inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #FFFFFF;
+    }
+
+header {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/fundomaquina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px
+}    
+
+header h1{
+
+    color: #FFFFFF;
+}
+
+header p{
+    margin-bottom: 2em;
+}
+
+#tattoos
+{
+    background-color: #000730;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-color: #FFFFFF;
+}
+
+#tattoos h2{
+    margin border-bottom: 20px;
+}
+
+#fotos img {
+    width: 100%;
+}

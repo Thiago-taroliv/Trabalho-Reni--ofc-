@@ -1,0 +1,43 @@
+.main {
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+background-color: #000730;
+flex-direction: column;
+}
+
+.text {
+    font-family: 'Lobster', sans-serif;
+    font-size: 45px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.p {
+    font-family: 'Nunito';
+    color: white;
+    margin-bottom: 50px; 
+}
+
+#botao2 {
+    cursor: pointer;
+    font-family: 'Nunito', serif;;
+    align-items: center;
+    font-display: center;
+    color: #000730;
+    margin: 5px;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: #ffffff;
+    font-size: .9em;
+    border-radius: 10px;
+    transition: all 0.5s;
+    
+}
+
+#botao2:hover{
+    border-radius:16px;
+    background-color: #000730;
+    color: #ffffff;
+}
